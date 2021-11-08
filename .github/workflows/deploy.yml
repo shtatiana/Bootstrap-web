@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      # Build
-      # - run: npm ci
-      # - run: npm run build
       # Deploy
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
