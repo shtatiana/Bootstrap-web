@@ -10,11 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      # Build
+      - run: npm ci
+      - run: npm run build
+      # Deploy
       - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "mysimplesite01" #Must be unique in Heroku
           heroku_email: "njhuckov@gmail.com"
-      - run: npm ci
-      - run: npm run build
-
+          appdir: "dist" # <- This will point to the api folder in your project
