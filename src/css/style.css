@@ -410,6 +410,9 @@ a:hover {
         line-height: 24px;
         height: 40%;
     }
+    .header-nav {
+        display: none!important;
+    }
     .burger-button {
         background-color: #fff;
         border:none;
