@@ -8,6 +8,9 @@
     "build": "npm run html && npm run styles",
     "serve": "serve"
   },
+  "engines": {
+        "node": ">= 8"
+      },
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "editorconfig-checker": "^3.1.0",
