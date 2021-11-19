@@ -38,7 +38,7 @@ a:hover {
     text-decoration: none;
     height: 100%;
 }
-.header-main-link { 
+.header-main-link {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -71,7 +71,6 @@ a:hover {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
-    
     color: #1A1B22;
     text-decoration: none;
 }
@@ -155,7 +154,7 @@ a:hover {
 }
 .news-bin:hover .svg-path {
     fill:black;
-    stroke: black; 
+    stroke: black;
 }
 .tooltip-bin {
     font-family: Roboto;
@@ -240,9 +239,8 @@ a:hover {
 }
 .img-sm {
     height: 20px;
-    width: 20px; 
+    width: 20px;
 }
-
 @media screen and (min-width: 768px) {
     .header {
         height: 80px;
@@ -395,8 +393,7 @@ a:hover {
         font-size: 18px;
         line-height: 24px;
     }
-} 
-
+}
 @media screen and (max-width: 768px) {
     .header {
         height: 56px;
@@ -420,7 +417,7 @@ a:hover {
         text-align: end;
         justify-self: end;
     }
-    .burger {        
+    .burger {
         width: 24px;
         height: 24px;
     }
